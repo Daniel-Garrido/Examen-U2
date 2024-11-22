@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LOCAL  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  CSS DE FANCYBOX.CSS -->
+    <link rel="stylesheet" href="css/fancybox.css">
+    <!--  CSS DE ANIMATE.CSS PARA WOW.JS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- CSS  DE CARROUSEL.CSS  -->
+    <link rel="stylesheet" href="css/carrousel.css">
+    
+    <!--  Libreria  JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!--  Libreria  DE WOW.JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Libreria  DE RESPONSIVESLIDES.JS -->
+    <script src="js/responsiveslides.js"></script>
+    <!-- Libreria  DE FANCYBOX.JS -->
+    <script src="js/fancybox.js"></script>
+    <!-- LLAMA EL SCRIPT DE FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/228ea9976a.js" crossorigin="anonymous"></script>
+    <!-- Libreria DE CARROUSEL.JS -->
+    <script src="js/carrousel.js"></script>
+
+    <title>Examen U2 D.G</title>
+</head>
+<body>
+  
+  <!-- Seccion de header -->
+  <header class="nav">
+        <figure>
+            <img src="Images/logo.jpg" alt="">
+        </figure>
+        <section class="container_menu">
+        
+          <nav>
+              <div class="menu" id="iconomenu">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+              <!-- menu de navegacion -->
+              <ul id="contenedormenu">
+                  <li><a href="#">About US</a></li>
+                  <li><a href="#">Our services</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Lates new</a></li>
+               
+              </ul>
+          </nav>
+      
+      </section>
+    </header>
+    
+    <!-- contenedor modal  -->
+    <section id="modal" class="fondomodal">
+    
+      <div class="contenidomodal">
+        <div class="alineacion_cerrar">
+          <i id="cerrar_modal" class="cerrarmodal fas fa-times-circle"></i>
+        </div>
+        <br><br>
+        <article class="promociones">
+         
+          <figure class="foto">
+            <img src="Images/logo.jpg" alt="" />
+            <img src="Images/fotomodal.jpg" alt="">
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ab autem
+            amet obcaecati eveniet exercitationem ex sit quaerat. Atque laborum,
+            totam cum vel itaque rem voluptatibus recusandae nulla minus hic!
+          </p>
+          
+        </article>
+  
+      </div>
+  
+    </section>
+
+    <!-- SECCION PARA RESPONSIVESLIDE.JS -->
+    <!--Contnedor de imagenes principal  -->
+    <section class="slides">
+      <ul class="rslides">
+        <li>
+          <img src="Images/slide1.jpg" alt="">
+          <div class="txt-slide">
+            <p class="title">Expert Financial Advice</p><br>
+            <p class="info_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, hic.</p>
+            <br>
+            <a href="#" class="btn_modal" id="boton_modal">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <img src="Images/slide2.jpg" alt="">
+          <div class="txt-slide">
+            <p class="title">Expert Financial Advice</p><br>
+            <p class="info_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, hic.</p>
+            <br>
+            <a href="#" class="btn_modal" id="boton_modal">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <img src="Images/slide3.jpg" alt="">
+          <div class="txt-slide">
+            <p class="title">Expert Financial Advice</p><br>
+            <p class="info_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, hic.</p>
+            <br>
+            <a href="#" class="btn_modal" id="boton_modal">Learn More</a>
+          </div>
+        </li>
+      </ul>
+     
+    </section>
+
+
+   
+    <!-- Seccion acerca de -->
+    <section class="services" id="services"><br>
+      <h2>Abous US</h2>
+  
+      <article class="service-item wow animate__animated animate__fadeInLeft animate__delay-1s">
+        <i class="fas fa-laptop"></i> <!-- Ícono de Marketing Services -->
+        <h3>Marketing Services</h3>
+    
+        <p>Praesent accumsan nibh dolor, sed pulvinar felis viverra vel. Vestibulum ante ipsum primis in faucibus.</p>
+      </article><br>
+    
+      <article class="service-item  wow animate__animated animate__fadeInRight animate__delay-1s">
+        <i class="fas fa-chart-line"></i> <!-- Ícono de Market Research -->
+        <h3> Market Research</h3>
+        <p>Nbh dolor, sed pulvinar felis viverra vel. Vestibulum ante ipsum primis in faucibus raesent accumsan.</p>
+      </article><br>
+    
+      <article class="service-item wow animate__animated animate__fadeInLeft animate__delay-1s">
+        <i class="fas fa-id-card"></i> <!-- Ícono de Business Plans -->
+        <h3>Business Plans</h3>
+    
+        <p>Accumsan nibh dolor, sed pulvinar felis viverra vel. Vestibulum ante ipsum primis in faucibus pulvinar.</p>
+      </article><br>
+    
+      <article class="service-item  wow animate__animated animate__fadeInRight animate__delay-1s">
+        <i class="fas fa-dollar-sign"></i> <!-- Ícono de Advertising -->
+        <h3>Advertising</h3>
+        <p>Cesent accumsan nibh dolor, sed pulvinar felis viverra vel. Vestibulum ante ipsum primis in faucibus.</p>
+      </article><br>
+    </section>
+
+   
+    <!-- Seccion de imagenes -->
+    <section class="container_galery" id="galery"><br>
+        <h2>Projects</h2>
+     
+
+        <div class="galery">
+            <!-- FIGURA 1 -->
+            <a href="Images/galeriafoto1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                <figure class="fotos">
+                    <img src="Images/galeriafoto1.jpg" alt="">
+                </figure>
+            </a>
+            <!-- FIGURA 2 -->
+            <a href="Images/galeriafoto2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                <figure class="fotos">
+                    <img src="Images/galeriafoto2.jpg" alt="">
+                </figure>
+            </a>
+            <!-- FIGURA 3 -->
+            <a href="Images/galeriafoto3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                <figure class="fotos">
+                    <img src="Images/galeriafoto3.jpg" alt="">
+                </figure>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seccion de otros servicios -->
+  
+
+
+    <!--SECCION DE EQUIPO -->
+    <section class="acordeon"  id="acordeon"><br>
+        <h2>TEAM</h2>
+      <div class="acordeon_titulo">
+        <h3>Jhon Tyler</h3>
+      
+        <i class="fas fa-plus"></i>
+
+      </div>
+      
+      <article class="acordeon_contenido_2">
+        <figure>
+          <img src="Images/foto_team1.jpg" alt="">
+        </figure>
+        <div class="info">
+          <h3>Director of client Strategy</h3>
+          <div class="footer_icons">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i> </a>
+          </div>
+        </div>
+      </article>
+      
+      <div class="acordeon_titulo">
+        <h3>Stuart Williams</h3>
+      
+        <i class="fas fa-plus"></i>
+
+      </div>
+      
+      <article class="acordeon_contenido_2">
+        <figure>
+          <img src="Images/foto_team2.jpg" alt="">
+        </figure>
+        <div class="info">
+          <h3>Acount Directory</h3>
+          <div class="footer_icons">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i> </a>
+          </div>
+        </div>
+      </article>
+
+      <div class="acordeon_titulo">
+        <h3>Jane Macmillan</h3>
+
+        <i class="fas fa-plus"></i>
+
+    </div>
+
+    <article class="acordeon_contenido_2">
+        <figure>
+            <img src="Images/foto_team3.jpg" alt="">
+        </figure>
+        <div class="info">
+            <h3>Analitics directory</h3>
+            <div class="footer_icons">
+              <a href="#" class="social-link"><i class="fab fa-facebook"></i> </a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i> </a>
+              <a href="#" class="social-link"><i class="fab fa-pinterest"></i> </a>
+            </div>
+        </div>
+    </article>
+
+    <div class="acordeon_titulo">
+      <h3>Samanta Lopez</h3>
+
+      <i class="fas fa-plus"></i>
+
+  </div>
+
+  <article class="acordeon_contenido_2">
+      <figure>
+          <img src="Images/foto_team4.jpg" alt="">
+      </figure>
+      <div class="info">
+          <h3>Operations Manager</h3>
+          <div class="footer_icons">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i> </a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i> </a>
+          </div>
+      </div>
+  </article>
+       
+    </section>
+
+    <section class="services">
+      <h1>Out Services</h1>
+      <div class="service-card">
+        <img src="Images/fotoservicio1.jpg" alt="Service Image">
+        <div class="content">
+          <br>
+          <h3>First Blog Post</h3> <br>
+          <span class="date">Aug 19, 2015</span>
+          <p>Etiam volutpat enim sit amet eros luctus semper. Praesent id est a orci rhoncus rutrum ut id lacus. Phasellus laoreet ex sit amet tortor semper con.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="Images/fotoservicio2.jpg" alt="Service Image">
+        <div class="content">
+          <br>
+          <h3>Second Blog Post</h3> <br>
+          <span class="date">Aug 16, 2015</span>
+          <p>Duis tortor orci, blandit sit amet justo at, feugiat luctus urna. Etiam volutpat enim sit amet eros luctus semper. Praesent id est a orci rhoncus rutrum.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icono para regresar al inicio -->
+    <div class="flecha_arriba">
+        <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+    </div>
+
+    <!-- SECCION FOOTER  -->
+    <footer class="footer">
+        <figure>
+            <img src="Images/logo.jpg" alt="">
+        </figure>
+        <div class="footer_icons">
+          <p> &copy; 2017 All rigths Reserved | Priyacvy Policy</p>
+        </div>
+        <div class="footer_icons">
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i> </a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i> </a>
+          <a href="#" class="social-link"><i class="fab fa-pinterest"></i> </a>
+        </div>
+    </footer>
+
+    <script>
+
+      // Jquery para la funcion abrir y cerrar modal 
+      $("#boton_modal").click(function () {
+      $("#modal").addClass("mostrar");
+    })
+
+    $("#cerrar_modal").click(function () {
+      $("#modal").removeClass("mostrar");
+    })
+
+    // por tiempo 5 segundos
+    function tiempo() {
+      $("#modal").addClass("mostrar");
+    }
+    setTimeout(tiempo, 5000);
+
+
+    // click por fuera
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        $("#modal").removeClass("mostrar");
+      }
+    };
+
+    // click tecla ESC
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        $("#modal").removeClass("mostrar");
+      }
+    });
+
+    // scroll mas de 600px
+    
+
+
+    // ------- SCRIPT THE MENU
+        $("#iconomenu").click(function(){
+            $("#contenedormenu").toggleClass('abrir_menu');
+        });
+
+        
+        
+    //---- SCRIPT THE RESPONSIVESLIDES.JS
+        $(function() {
+            $(".rslides").responsiveSlides({
+                speed: 500,       // Velocidad de la transición
+                timeout: 5000,    // Tiempo en milisegundos entre slides
+                pause: true,      // Pausa al pasar el mouse sobre el slider
+                hover: true,      // Permite que el mouse pause el slider
+            });
+        });
+
+        // SCRIPT THE WOW.JS
+        new WOW().init();
+
+        // SCRIPT THE FANCYBOX.JS
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        // Your custom options for a specific gallery
+        });
+
+        // SCRIPT OF ACORDEON
+        $(".acordeon_titulo").click(function() {
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+        })
+    </script>
+</body>
+</html>
